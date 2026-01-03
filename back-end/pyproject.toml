@@ -1,0 +1,16 @@
+[project]
+name = "back-end"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django==6.0",
+    "django-filter>=25.2",
+    "djangorestframework>=3.16.1",
+    "markdown>=3.10",
+    "psycopg[binary]>=3.3.2",
+    "pyfiglet>=1.0.4",
+    "python-dotenv>=1.2.1",
+    "rich>=14.2.0",
+]

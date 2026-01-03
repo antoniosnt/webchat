@@ -1,0 +1,10 @@
+import { NextResponse, NextRequest } from "next/server";
+
+export function proxy(request: NextRequest) {
+  console.log("STARTING REQUEST ===>>>");
+  return NextResponse.next();
+}
+
+export const config = {
+  matcher: "/:path",
+};
