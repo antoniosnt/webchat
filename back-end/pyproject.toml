@@ -9,8 +9,10 @@ dependencies = [
     "django-filter>=25.2",
     "djangorestframework>=3.16.1",
     "markdown>=3.10",
+    "pre-commit>=4.5.1",
     "psycopg[binary]>=3.3.2",
     "pyfiglet>=1.0.4",
     "python-dotenv>=1.2.1",
     "rich>=14.2.0",
+    "ruff>=0.14.10",
 ]
